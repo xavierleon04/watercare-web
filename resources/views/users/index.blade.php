@@ -6,7 +6,10 @@
         <h3>Gestión de Usuarios</h3>
 
         <a href="create" class="btn btn-success">CREAR</a>
+<<<<<<< HEAD
         
+=======
+>>>>>>> 4db9cb428566562a9eb180ff8d85f531e4179cad
         <table class="table">
             <thead class="thead-dark">
                 <tr>

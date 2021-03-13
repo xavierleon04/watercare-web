@@ -55,9 +55,13 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+<<<<<<< HEAD
 Route::get('/historial', 'HistorialController@index');
 
 Route::delete('/historial/destroy/{id}', 'HistorialController@destroy');
+=======
+Route::get('/historial', 'HistorialController@listHistorial');
+>>>>>>> 4db9cb428566562a9eb180ff8d85f531e4179cad
 
 Route::get('/users/index', 'UsersController@index');
 

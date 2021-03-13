@@ -55,8 +55,17 @@
             <a class="dropdown-item" href="#">{{ __('Perfil') }}</a>
             <a class="dropdown-item" href="#">{{ __('Ajustes') }}</a>
             <div class="dropdown-divider"></div>
+<<<<<<< HEAD
            <a class="dropdown-item" href="{{ route('logout') }}"  onclick="event.preventDefault(); document.getElementById('logout-form').submit();">{{ __('Cerrar Sesión') }}</a> 
         
+=======
+<<<<<<< HEAD
+           <a class="dropdown-item" href="{{ route('logout') }}"  onclick="event.preventDefault(); document.getElementById('logout-form').submit();">{{ __('Cerrar Sesión') }}</a> 
+        
+=======
+            <a class="dropdown-item" href="{{ route('login') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();">{{ __('Cerrar Sesión') }}</a>
+>>>>>>> ffcdfd53412dff87aa5af6f17ee1a48ce3a66b74
+>>>>>>> 4db9cb428566562a9eb180ff8d85f531e4179cad
           </div>
         </li>
       </ul>
