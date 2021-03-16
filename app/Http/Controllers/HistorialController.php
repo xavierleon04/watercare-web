@@ -7,6 +7,10 @@ use App\Historial;
 
 class HistorialController extends Controller
 {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 228186c398cf7a59aaddfae88a71854873708c9c
    
    /**
      * Display a listing of the resource.
@@ -38,5 +42,13 @@ class HistorialController extends Controller
         $historial->delete();
         $historials = Historial::all();
         return view('historial', compact('historials'));
+<<<<<<< HEAD
+=======
+=======
+    public function listHistorial(){
+        $historial = Historial::all();
+        return view('historial', compact('historial'));
+>>>>>>> 4db9cb428566562a9eb180ff8d85f531e4179cad
+>>>>>>> 228186c398cf7a59aaddfae88a71854873708c9c
     }
 }

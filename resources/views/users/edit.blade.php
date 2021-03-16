@@ -27,7 +27,15 @@
         </div>
 
     </div>
+<<<<<<< HEAD
     <a href="javascript:history.back(-1);" title="Ir la página anterior"  class="btn btn-secondary">Cancelar</a>
+=======
+<<<<<<< HEAD
+    <a href="javascript:history.back(-1);" title="Ir la página anterior"  class="btn btn-secondary">Cancelar</a>
+=======
+    <a href="index" class="btn btn-secondary">Cancelar</a>
+>>>>>>> 4db9cb428566562a9eb180ff8d85f531e4179cad
+>>>>>>> 228186c398cf7a59aaddfae88a71854873708c9c
     <button type="submit" class="btn btn-success">Editar usuario</button>
 
 </form>

@@ -29,6 +29,7 @@ Route::get('/chart', function () {
     return view('chart');
 });
 
+<<<<<<< HEAD
 Route::get('/sistema', function () {
     return view('sistema');
 });
@@ -36,6 +37,8 @@ Route::get('/sistema', function () {
 Route::get('/ajustes', function () {
     return view('ajustes');
 });
+=======
+>>>>>>> 228186c398cf7a59aaddfae88a71854873708c9c
 
 Route::get('sesion', function () {
     return View::make('sesion');
@@ -62,9 +65,19 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+<<<<<<< HEAD
 Route::get('/historial', 'HistorialController@index');
 
 Route::delete('/destroy/{id}', 'HistorialController@destroy');
+=======
+<<<<<<< HEAD
+Route::get('/historial', 'HistorialController@index');
+
+Route::delete('/historial/destroy/{id}', 'HistorialController@destroy');
+=======
+Route::get('/historial', 'HistorialController@listHistorial');
+>>>>>>> 4db9cb428566562a9eb180ff8d85f531e4179cad
+>>>>>>> 228186c398cf7a59aaddfae88a71854873708c9c
 
 Route::get('/users/index', 'UsersController@index');
 
@@ -81,7 +94,11 @@ Route::put('/users/update/{id}', 'UsersController@update');
 Route::delete('/users/destroy/{id}', 'UsersController@destroy');
 
 
+<<<<<<< HEAD
 Route::get('/users/show/{id}', 'UsersController@show');
+=======
+
+>>>>>>> 228186c398cf7a59aaddfae88a71854873708c9c
 
 
 
