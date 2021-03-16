@@ -23,7 +23,15 @@
                 margin: 0px;
                 padding: 5px 100px;
 
+<<<<<<< HEAD
                 background-image: url('img/v5.jpeg'); 
+=======
+<<<<<<< HEAD
+                background-image: url('img/v5.jpeg'); 
+=======
+                background-image: url('img/v4.jpg'); 
+>>>>>>> 228186c398cf7a59aaddfae88a71854873708c9c
+>>>>>>> 24cccf4d2b0f7e22e2503533d26ff40b413382d3
                 background-repeat: no-repeat;
                 background-attachment: fixed;
                 background-position: center center;

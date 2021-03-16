@@ -58,7 +58,15 @@ class UsersController extends Controller
      */
     public function show($id)
     {
+<<<<<<< HEAD
         $user = User::find($id);
+=======
+<<<<<<< HEAD
+        $user = User::find($id);
+=======
+        $user = User::findOrFail($id);
+>>>>>>> 228186c398cf7a59aaddfae88a71854873708c9c
+>>>>>>> 24cccf4d2b0f7e22e2503533d26ff40b413382d3
         return view('users.show', compact('user'));
     }
 
@@ -104,5 +112,15 @@ class UsersController extends Controller
         $user = User::find($id);
         $user->delete();
         return redirect('users/index');
+<<<<<<< HEAD
     }    
 }   
+=======
+<<<<<<< HEAD
+    }    
+}   
+=======
+    }
+}
+>>>>>>> 228186c398cf7a59aaddfae88a71854873708c9c
+>>>>>>> 24cccf4d2b0f7e22e2503533d26ff40b413382d3

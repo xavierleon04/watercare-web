@@ -29,6 +29,10 @@ Route::get('/chart', function () {
     return view('chart');
 });
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 24cccf4d2b0f7e22e2503533d26ff40b413382d3
 Route::get('/sistema', function () {
     return view('sistema');
 });
@@ -36,6 +40,11 @@ Route::get('/sistema', function () {
 Route::get('/ajustes', function () {
     return view('ajustes');
 });
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 228186c398cf7a59aaddfae88a71854873708c9c
+>>>>>>> 24cccf4d2b0f7e22e2503533d26ff40b413382d3
 
 Route::get('sesion', function () {
     return View::make('sesion');
@@ -58,6 +67,7 @@ Route::get('sesion-2', function(){
 
 
 
+<<<<<<< HEAD
 Route::get('/profile', function () {
 
     return view('profile');
@@ -76,14 +86,32 @@ Route::get('/profile', function () {
 
 
 
+=======
+>>>>>>> 24cccf4d2b0f7e22e2503533d26ff40b413382d3
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+<<<<<<< HEAD
 Route::get('/historial', 'HistorialController@index');
 
 Route::delete('/destroy/{id}', 'HistorialController@destroy');
 
+=======
+<<<<<<< HEAD
+Route::get('/historial', 'HistorialController@index');
+
+Route::delete('/destroy/{id}', 'HistorialController@destroy');
+=======
+<<<<<<< HEAD
+Route::get('/historial', 'HistorialController@index');
+
+Route::delete('/historial/destroy/{id}', 'HistorialController@destroy');
+=======
+Route::get('/historial', 'HistorialController@listHistorial');
+>>>>>>> 4db9cb428566562a9eb180ff8d85f531e4179cad
+>>>>>>> 228186c398cf7a59aaddfae88a71854873708c9c
+>>>>>>> 24cccf4d2b0f7e22e2503533d26ff40b413382d3
 
 Route::get('/users/index', 'UsersController@index');
 
@@ -99,7 +127,16 @@ Route::put('/users/update/{id}', 'UsersController@update');
 
 Route::delete('/users/destroy/{id}', 'UsersController@destroy');
 
+<<<<<<< HEAD
 Route::get('/users/show/{id}', 'UsersController@show');
+=======
+
+<<<<<<< HEAD
+Route::get('/users/show/{id}', 'UsersController@show');
+=======
+
+>>>>>>> 228186c398cf7a59aaddfae88a71854873708c9c
+>>>>>>> 24cccf4d2b0f7e22e2503533d26ff40b413382d3
 
 
 

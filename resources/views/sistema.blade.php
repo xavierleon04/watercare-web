@@ -6,7 +6,11 @@
   <title>Water Care</title>
   </head>
   <body>
+<<<<<<< HEAD
   <h2 style="text-align:center; margin:20px">Sistema y Seguridad</h2>
+=======
+  <h3 style="text-align:center; margin:20px">Sistema y Seguridad</h3>
+>>>>>>> 24cccf4d2b0f7e22e2503533d26ff40b413382d3
 
   
     
