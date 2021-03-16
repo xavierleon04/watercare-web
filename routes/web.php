@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,12 +13,30 @@
 |
 */
 
+
 Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/prueba', function () {
     return view('prueba');
 });
+
+Route::get('/help', function () {
+    return view('help');
+});
+
+Route::get('/chart', function () {
+    return view('chart');
+});
+
+Route::get('/sistema', function () {
+    return view('sistema');
+});
+
+Route::get('/ajustes', function () {
+    return view('ajustes');
+});
+
 Route::get('sesion', function () {
     return View::make('sesion');
 });
@@ -37,6 +57,50 @@ Route::get('sesion-2', function(){
 });
 
 
+
+Route::get('/profile', function () {
+
+    return view('profile');
+});
+
+/* Route::get('/profile/{id}', function ($id) {
+
+	$user = App\User::find($id);
+
+	return view('profile', [
+		'user'   => $user
+	]);
+
+})->name('profile'); */
+
+
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/historial', 'HistorialController@index');
+
+Route::delete('/destroy/{id}', 'HistorialController@destroy');
+
+
+Route::get('/users/index', 'UsersController@index');
+
+Route::get('/users/create', 'UsersController@create');
+
+Route::post('/users/store', 'UsersController@store');
+
+Route::post('/users/store', 'UsersController@store');
+
+Route::get('/users/edit/{id}', 'UsersController@edit');
+
+Route::put('/users/update/{id}', 'UsersController@update');
+
+Route::delete('/users/destroy/{id}', 'UsersController@destroy');
+
+Route::get('/users/show/{id}', 'UsersController@show');
+
+
+
+ 

@@ -13,7 +13,7 @@
     <div class="collapse navbar-collapse justify-content-end">
       <form class="navbar-form">
         <div class="input-group no-border">
-        <input type="text" value="" class="form-control" placeholder="Search...">
+        <input type="text" value="" class="form-control" placeholder="Buscar...">
         <button type="submit" class="btn btn-white btn-round btn-just-icon">
           <i class="material-icons">search</i>
           <div class="ripple-container"></div>
@@ -38,11 +38,10 @@
             </p>
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">{{ __('Mike John responded to your email') }}</a>
-            <a class="dropdown-item" href="#">{{ __('You have 5 new tasks') }}</a>
-            <a class="dropdown-item" href="#">{{ __('You\'re now friend with Andrew') }}</a>
-            <a class="dropdown-item" href="#">{{ __('Another Notification') }}</a>
-            <a class="dropdown-item" href="#">{{ __('Another One') }}</a>
+            <a class="dropdown-item" href="#">{{ __('Mike John respondió tu email') }}</a>
+            <a class="dropdown-item" href="#">{{ __('Tienes 5 tareas nuevas') }}</a>
+            <a class="dropdown-item" href="#">{{ __('Lore ha modificado el horario') }}</a>
+            <a class="dropdown-item" href="#">{{ __('Otra Notificaficación') }}</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -53,10 +52,11 @@
             </p>
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownProfile">
-            <a class="dropdown-item" href="#">{{ __('Profile') }}</a>
-            <a class="dropdown-item" href="#">{{ __('Settings') }}</a>
+            <a class="dropdown-item" href="#">{{ __('Perfil') }}</a>
+            <a class="dropdown-item" href="ajustes">{{ __('Ajustes') }}</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();">{{ __('Log out') }}</a>
+           <a class="dropdown-item" href="{{ route('logout') }}"  onclick="event.preventDefault(); document.getElementById('logout-form').submit();">{{ __('Cerrar Sesión') }}</a> 
+        
           </div>
         </li>
       </ul>
