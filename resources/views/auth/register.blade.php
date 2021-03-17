@@ -8,7 +8,7 @@
                     <form class="form-horizontal" method="POST" action="{{ route('register') }}">
                     <div class="card card-login card-hidden mb-3">
                     <div class="card-header card-header-primary text-center">
-                        <h4 class="card-title"><strong>{{ __('Registrate') }}</strong></h4>
+                        <h4 class="card-title"><strong>{{ __('Regístrate') }}</strong></h4>
                         <div class="social-line">
                         <a href="#pablo" class="btn btn-just-icon btn-link btn-white">
                             <i class="fa fa-facebook-square"></i>
@@ -92,7 +92,7 @@
                         </div>
                         <div class="form-group">
                         <div class="card-footer justify-content-center">
-                            <button type="submit" class="btn btn-primary btn-link btn-lg">Registrate</button>
+                            <button type="submit" class="btn btn-primary btn-link btn-lg">Regístrate</button>
                         </div>
                         </div>
                     </div> 
