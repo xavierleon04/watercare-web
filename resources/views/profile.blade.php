@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang= "en">
     <head>
@@ -6,6 +7,15 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+=======
+
+
+<!DOCTYPE html>
+<html lang= "{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+>>>>>>> 41694a7b02ce6afed4561b407b7b0f2461b94654
         <title>Perfil de usuario</title>
 
 
@@ -61,4 +71,7 @@
          
     </body>
 </html>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 41694a7b02ce6afed4561b407b7b0f2461b94654

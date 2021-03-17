@@ -31,7 +31,11 @@ body{
     height: 430px;
     display: flex;
     flex-wrap: wrap;
+<<<<<<< HEAD
     justify-content: center;  
+=======
+    justify-content: center;
+>>>>>>> 41694a7b02ce6afed4561b407b7b0f2461b94654
     margin: auto;
 }
 

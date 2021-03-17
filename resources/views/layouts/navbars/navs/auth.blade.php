@@ -52,11 +52,40 @@
             </p>
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownProfile">
+<<<<<<< HEAD
             <a class="dropdown-item" href="profile">{{ __('Perfil') }}</a>
+=======
+            <a class="dropdown-item" href="#">{{ __('Perfil') }}</a>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 24cccf4d2b0f7e22e2503533d26ff40b413382d3
+>>>>>>> 41694a7b02ce6afed4561b407b7b0f2461b94654
             <a class="dropdown-item" href="ajustes">{{ __('Ajustes') }}</a>
             <div class="dropdown-divider"></div>
            <a class="dropdown-item" href="{{ route('logout') }}"  onclick="event.preventDefault(); document.getElementById('logout-form').submit();">{{ __('Cerrar Sesión') }}</a> 
         
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+            <a class="dropdown-item" href="#">{{ __('Ajustes') }}</a>
+            <div class="dropdown-divider"></div>
+<<<<<<< HEAD
+           <a class="dropdown-item" href="{{ route('logout') }}"  onclick="event.preventDefault(); document.getElementById('logout-form').submit();">{{ __('Cerrar Sesión') }}</a> 
+        
+=======
+<<<<<<< HEAD
+           <a class="dropdown-item" href="{{ route('logout') }}"  onclick="event.preventDefault(); document.getElementById('logout-form').submit();">{{ __('Cerrar Sesión') }}</a> 
+        
+=======
+            <a class="dropdown-item" href="{{ route('login') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();">{{ __('Cerrar Sesión') }}</a>
+>>>>>>> ffcdfd53412dff87aa5af6f17ee1a48ce3a66b74
+>>>>>>> 4db9cb428566562a9eb180ff8d85f531e4179cad
+>>>>>>> 228186c398cf7a59aaddfae88a71854873708c9c
+>>>>>>> 24cccf4d2b0f7e22e2503533d26ff40b413382d3
+>>>>>>> 41694a7b02ce6afed4561b407b7b0f2461b94654
           </div>
         </li>
       </ul>

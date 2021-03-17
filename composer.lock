@@ -4,7 +4,23 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "18b61217e3ddb22346b2888cc78c24c8",
+=======
+<<<<<<< HEAD
+    "content-hash": "9cd91b047ed8ebf17902df9457a34b6e",
+=======
+<<<<<<< HEAD
+    "content-hash": "9cd91b047ed8ebf17902df9457a34b6e",
+=======
+<<<<<<< HEAD
+    "content-hash": "9cd91b047ed8ebf17902df9457a34b6e",
+=======
+    "content-hash": "c67ac5ca3ad28aa896aef606da45c78e",
+>>>>>>> 4db9cb428566562a9eb180ff8d85f531e4179cad
+>>>>>>> 228186c398cf7a59aaddfae88a71854873708c9c
+>>>>>>> 24cccf4d2b0f7e22e2503533d26ff40b413382d3
+>>>>>>> 41694a7b02ce6afed4561b407b7b0f2461b94654
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -399,6 +415,7 @@
             "time": "2017-06-15T17:19:42+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "guzzlehttp/guzzle",
             "version": "7.2.0",
             "source": {
@@ -519,15 +536,40 @@
             },
             "require-dev": {
                 "symfony/phpunit-bridge": "^4.4 || ^5.1"
+=======
+            "name": "genealabs/phpgmaps",
+            "version": "0.3.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/GeneaLabs/Phpgmaps.git",
+                "reference": "d258433d0491226597e7cd62b7ca388c35afe943"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/GeneaLabs/Phpgmaps/zipball/d258433d0491226597e7cd62b7ca388c35afe943",
+                "reference": "d258433d0491226597e7cd62b7ca388c35afe943",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "5.*",
+                "php": ">=5.4.0"
+>>>>>>> 41694a7b02ce6afed4561b407b7b0f2461b94654
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-master": "1.4-dev"
+=======
+                    "dev-laravel4": "1.0-dev",
+                    "dev-develop": "2.0-dev",
+                    "dev-master": "2.0-dev"
+>>>>>>> 41694a7b02ce6afed4561b407b7b0f2461b94654
                 }
             },
             "autoload": {
                 "psr-4": {
+<<<<<<< HEAD
                     "GuzzleHttp\\Promise\\": "src/"
                 },
                 "files": [
@@ -597,6 +639,10 @@
                 "files": [
                     "src/functions_include.php"
                 ]
+=======
+                    "GeneaLabs\\Phpgmaps\\": "src/GeneaLabs/Phpgmaps/"
+                }
+>>>>>>> 41694a7b02ce6afed4561b407b7b0f2461b94654
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -604,6 +650,7 @@
             ],
             "authors": [
                 {
+<<<<<<< HEAD
                     "name": "Michael Dowling",
                     "email": "mtdowling@gmail.com",
                     "homepage": "https://github.com/mtdowling"
@@ -629,6 +676,30 @@
                 "source": "https://github.com/guzzle/psr7/tree/1.7.0"
             },
             "time": "2020-09-30T07:37:11+00:00"
+=======
+                    "name": "Mike Bronner",
+                    "email": "mike@genealabs.com",
+                    "role": "maintainer"
+                },
+                {
+                    "name": "Michael Hopkins",
+                    "role": "developer"
+                }
+            ],
+            "description": "Laravel implementation of BIOSTALL's CodeIgniter Google Maps API, originally by Michael Hopkins at Appitventures.",
+            "keywords": [
+                "biostall",
+                "googlemaps",
+                "laravel",
+                "phpgmaps"
+            ],
+            "support": {
+                "issues": "https://github.com/GeneaLabs/Phpgmaps/issues",
+                "source": "https://github.com/GeneaLabs/Phpgmaps/tree/master"
+            },
+            "abandoned": "GeneaLabs/laravel-maps",
+            "time": "2016-08-07T20:39:00+00:00"
+>>>>>>> 41694a7b02ce6afed4561b407b7b0f2461b94654
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -1570,6 +1641,7 @@
             "support": {
                 "issues": "https://github.com/php-fig/container/issues",
                 "source": "https://github.com/php-fig/container/tree/1.1.1"
+<<<<<<< HEAD
             },
             "time": "2021-03-05T17:36:06+00:00"
         },
@@ -1677,6 +1749,10 @@
                 "source": "https://github.com/php-fig/http-message/tree/master"
             },
             "time": "2016-08-06T14:39:51+00:00"
+=======
+            },
+            "time": "2021-03-05T17:36:06+00:00"
+>>>>>>> 41694a7b02ce6afed4561b407b7b0f2461b94654
         },
         {
             "name": "psr/log",

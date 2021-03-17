@@ -29,6 +29,13 @@ Route::get('/chart', function () {
     return view('chart');
 });
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 24cccf4d2b0f7e22e2503533d26ff40b413382d3
+>>>>>>> 41694a7b02ce6afed4561b407b7b0f2461b94654
 Route::get('/sistema', function () {
     return view('sistema');
 });
@@ -36,11 +43,19 @@ Route::get('/sistema', function () {
 Route::get('/ajustes', function () {
     return view('ajustes');
 });
+<<<<<<< HEAD
 
 
 Route::get('/carr', function () {
     return view('carr');
 });
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 228186c398cf7a59aaddfae88a71854873708c9c
+>>>>>>> 24cccf4d2b0f7e22e2503533d26ff40b413382d3
+>>>>>>> 41694a7b02ce6afed4561b407b7b0f2461b94654
 
 Route::get('sesion', function () {
     return View::make('sesion');
@@ -63,6 +78,10 @@ Route::get('sesion-2', function(){
 
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 41694a7b02ce6afed4561b407b7b0f2461b94654
 Route::get('/profile', function () {
 
     return view('profile');
@@ -79,13 +98,43 @@ Route::get('/profile', function () {
 })->name('profile'); */
 
 
+<<<<<<< HEAD
+=======
+
+
+=======
+>>>>>>> 24cccf4d2b0f7e22e2503533d26ff40b413382d3
+>>>>>>> 41694a7b02ce6afed4561b407b7b0f2461b94654
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+<<<<<<< HEAD
 Route::get('/historial/index', 'HistorialController@index');
 
 Route::delete('/historial/destroy/{id}', 'HistorialController@destroy');
+=======
+<<<<<<< HEAD
+Route::get('/historial', 'HistorialController@index');
+
+Route::delete('/destroy/{id}', 'HistorialController@destroy');
+
+=======
+<<<<<<< HEAD
+Route::get('/historial', 'HistorialController@index');
+
+Route::delete('/destroy/{id}', 'HistorialController@destroy');
+=======
+<<<<<<< HEAD
+Route::get('/historial', 'HistorialController@index');
+
+Route::delete('/historial/destroy/{id}', 'HistorialController@destroy');
+=======
+Route::get('/historial', 'HistorialController@listHistorial');
+>>>>>>> 4db9cb428566562a9eb180ff8d85f531e4179cad
+>>>>>>> 228186c398cf7a59aaddfae88a71854873708c9c
+>>>>>>> 24cccf4d2b0f7e22e2503533d26ff40b413382d3
+>>>>>>> 41694a7b02ce6afed4561b407b7b0f2461b94654
 
 Route::get('/users/index', 'UsersController@index');
 
@@ -101,6 +150,7 @@ Route::put('/users/update/{id}', 'UsersController@update');
 
 Route::delete('/users/destroy/{id}', 'UsersController@destroy');
 
+<<<<<<< HEAD
 Route::get('/users/show/{id}', 'UsersController@show');
 
 
@@ -118,5 +168,19 @@ Route::post('/userGuzzle/store', 'UserGuzzleController@store');
 Route::get('/userGuzzle/show/{id}', 'UserGuzzleController@show');
 Route::put('/userGuzzle/update/{id}', 'UserGuzzleController@update');
 Route::delete('/userGuzzle/destroy/{id}', 'UserGuzzleController@destroy');
+=======
+<<<<<<< HEAD
+Route::get('/users/show/{id}', 'UsersController@show');
+=======
+
+<<<<<<< HEAD
+Route::get('/users/show/{id}', 'UsersController@show');
+=======
+
+>>>>>>> 228186c398cf7a59aaddfae88a71854873708c9c
+>>>>>>> 24cccf4d2b0f7e22e2503533d26ff40b413382d3
+
+
+>>>>>>> 41694a7b02ce6afed4561b407b7b0f2461b94654
 
  
