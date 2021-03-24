@@ -19,7 +19,19 @@
       </li>
       <li class="nav-item {{ ($activePage == 'profile' || $activePage == 'user-management') ? ' active' : '' }}">
         <a class="nav-link" data-toggle="collapse" href="#laravelExample" aria-expanded="true">
+<<<<<<< HEAD
           <i><img style="width:25px" src="{{ asset('img/w.svg') }}"></i>
+=======
+<<<<<<< HEAD
+          <i><img style="width:25px" src="{{ asset('img/w.svg') }}"></i>
+=======
+<<<<<<< HEAD
+          <i><img style="width:25px" src="{{ asset('img/w.svg') }}"></i>
+=======
+          <i><img style="width:25px" src="{{ asset('img/laravel.svg') }}"></i>
+>>>>>>> 24cccf4d2b0f7e22e2503533d26ff40b413382d3
+>>>>>>> 41694a7b02ce6afed4561b407b7b0f2461b94654
+>>>>>>> a3ed98772b3001447398fe6cc84551fc518e6088
           <p>{{ __('Administración') }}
             <b class="caret"></b>
           </p>
@@ -48,9 +60,33 @@
         </a>
       </li>
       <li class="nav-item{{ $activePage == 'typography' ? ' active' : '' }}">
+<<<<<<< HEAD
         <a class="nav-link" href="historial/index">
           <i class="material-icons">library_books</i>
             <p>{{ __('Gestión de Historial') }}</p>
+=======
+<<<<<<< HEAD
+        <a class="nav-link" href="historial/index">
+          <i class="material-icons">library_books</i>
+            <p>{{ __('Gestión de Historial') }}</p>
+=======
+        <a class="nav-link" href="historial">
+          <i class="material-icons">library_books</i>
+            <p>{{ __('Gestión de Historial') }}</p>
+        </a>
+      </li>
+      <li class="nav-item{{ $activePage == 'map' ? ' active' : '' }}">
+        <a class="nav-link" href="#">
+          <i class="material-icons">location_ons</i>
+            <p>{{ __('Mapas') }}</p>
+        </a>
+      </li>
+      <li class="nav-item{{ $activePage == 'notifications' ? ' active' : '' }}">
+        <a class="nav-link" href="#">
+          <i class="material-icons">notifications</i>
+          <p>{{ __('Notificaciones') }}</p>
+>>>>>>> 41694a7b02ce6afed4561b407b7b0f2461b94654
+>>>>>>> a3ed98772b3001447398fe6cc84551fc518e6088
         </a>
       </li>
       <li class="nav-item{{ $activePage == 'language' ? ' active' : '' }}">

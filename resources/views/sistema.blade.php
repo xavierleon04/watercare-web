@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> a3ed98772b3001447398fe6cc84551fc518e6088
 @section('content') 
 <!doctype html>
 <html lang="en">
@@ -104,3 +108,48 @@
 @endsection
 
 
+<<<<<<< HEAD
+=======
+=======
+@section('content')
+<html>
+  <head>
+  <title>Water Care</title>
+  </head>
+  <body>
+<<<<<<< HEAD
+  <h2 style="text-align:center; margin:20px">Sistema y Seguridad</h2>
+=======
+  <h3 style="text-align:center; margin:20px">Sistema y Seguridad</h3>
+>>>>>>> 24cccf4d2b0f7e22e2503533d26ff40b413382d3
+
+  
+    
+    
+    <h4 style="text-align:left; margin:20px; padding:10px">
+        Las copias de seguridad, si se hacen con regularidad, te permiten mantener a salvo tus fotos, documentos y programas instalados.<br />
+
+        Así, un eventual fallo del disco duro o el ataque de un virus arrollador no te pillará desprevenido y te será muy fácil recuperar <br /> todos tus archivos y los valores de configuración previos al desastre informático.<br />
+
+        ¿Qué es una copia de seguridad? ¿Qué tipos de copia de seguridad existen?<br />
+        Una copia de seguridad -también conocida como copia de respaldo, copia de reserva o backup, en inglés- <br />
+        Es el proceso de guardar los datos originales de un dispositivo para poder recuperarlos de nuevo en caso de pérdida.<br />
+
+        <br />Existen dos tipos principales de copias de seguridad:<br />
+
+        <ul>
+            <li>Copia de seguridad de los archivos.</li>
+            <li>Copia de seguridad del sistema.</li>
+        </ul>
+        <br />
+
+        <h3 style = "margin:20px">Copia de seguridad</h3>
+        <h4 style="text-align:left; margin:20px; padding:10px">Realiza una copia de tus historiales en tu pc, preferentemente en el disco duro.<br />
+        Una vez seleccionado el lugar donde se guardaran los datos, simplemente de <a href="#">Click aquí</a> y sus datos seran descargados listos para moverse al lugar de almacenamiento que usted desee.
+     </h4>
+     <img src="{{asset('img/data.jpg')}}" style = "width:450px; align:right;margin:20px; padding:10px">
+</body>
+</html>
+@endsection
+>>>>>>> 41694a7b02ce6afed4561b407b7b0f2461b94654
+>>>>>>> a3ed98772b3001447398fe6cc84551fc518e6088

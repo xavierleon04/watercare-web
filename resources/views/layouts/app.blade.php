@@ -82,10 +82,13 @@
     
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" ></script>
+<<<<<<< HEAD
     @if(Session::has('message'))
     <div class="alert alert-primary" role="alert">
         {{ Session::get('message') }}
     </div>
     @endif
+=======
+>>>>>>> a3ed98772b3001447398fe6cc84551fc518e6088
 </body>
 </html>

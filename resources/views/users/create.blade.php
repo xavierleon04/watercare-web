@@ -26,9 +26,23 @@
         </div>
 
     </div>
+<<<<<<< HEAD
     <a href="index" class="btn btn-secondary">Cancelar</a>
     <button type="submit" class="btn btn-primary">Agregar Usuario</button>
 
+=======
+<<<<<<< HEAD
+
+   
+    <a href="index" class="btn btn-secondary">Cancelar</a>
+        <button type="submit" class="btn btn-primary">Agregar Usuario</button>
+    
+=======
+    <a href="index" class="btn btn-secondary">Cancelar</a>
+    <button type="submit" class="btn btn-primary">Agregar Usuario</button>
+
+>>>>>>> 41694a7b02ce6afed4561b407b7b0f2461b94654
+>>>>>>> a3ed98772b3001447398fe6cc84551fc518e6088
 </form>
 
 @endsection
