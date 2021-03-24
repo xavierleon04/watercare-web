@@ -145,5 +145,12 @@
         <script src="{{ asset('demo/demo.js') }}"></script>
         <script src="{{ asset('js/settings.js') }}"></script>
         @stack('js')
+
+
+        @if(Session::has('message'))
+    <div class="alert alert-primary" role="alert">
+        {{ Session::get('message') }}
+    </div>
+    @endif
     </body>
 </html>
